@@ -157,3 +157,28 @@ a:hover {
 #links .container-fluid {
     padding: 3% 15% 0;
 }
+
+
+@media (max-width: 1028px) {
+
+    .big-heading {
+        font-size: 4rem;
+    }
+
+    .title-image {
+        /* width: 70%; */
+        object-fit: contain;
+    }
+
+    .foot-text {
+        text-align: left;
+    }
+
+    .carousel-control-next-icon {
+        margin: auto;
+    }
+
+    .carousel-control-prev-icon {
+        margin: auto;
+    }
+}
